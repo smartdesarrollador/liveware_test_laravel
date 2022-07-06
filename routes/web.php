@@ -26,7 +26,3 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
-
-Route::get('/hola_mundo', function () {
-    return view('pruebas.hola_mundo');
-});
