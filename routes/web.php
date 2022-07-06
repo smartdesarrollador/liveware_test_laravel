@@ -26,3 +26,12 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+
+
+/*---- Pruebas ----*/
+
+Route::get('/nueva_prueba', function () {
+    return view('nueva_prueba.prueba');
+});
